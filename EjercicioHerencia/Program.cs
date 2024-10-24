@@ -1,2 +1,12 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using EjercicioHerencia;
+
+internal class program
+{
+    private static void Main(string[] args)
+    {
+        Calculos calculos = new Calculos();
+        calculos.Imprimir();
+
+        Console.ReadKey();
+    }
+}

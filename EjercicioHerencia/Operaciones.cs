@@ -6,7 +6,21 @@ using System.Threading.Tasks;
 
 namespace EjercicioHerencia
 {
-    internal class Operaciones
+    public class Operaciones
     {
+        public double AreaCirculo(double radio)
+        {
+            return Math.PI * Math.Pow(radio, 2);
+        }
+
+        public double PerimetroRectangulo(double largo, double ancho)
+        {
+            return 2 * (largo + ancho);
+        }
+
+        public double VolumenCubo(double lado)
+        {
+            return Math.Pow(lado, 3);
+        }
     }
 }
